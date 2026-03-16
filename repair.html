@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="mr.css">
+</head>
+<body><nav class="navbar">
+
+    <div class="logo">Mr.Wafay</div>
+
+    <ul class="nav-links" id="navLinks">
+
+        <li><a href="/index.html">الصفحه الراسيه</a></li>
+
+        <li class="dropdown">
+            <a href="/printers.html">مكينات طباعة ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">HP</a></li>
+                <li><a href="#">Canon</a></li>
+                <li><a href="#">Epson</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">أحبار</a></li>
+        <li><a href="#">قطع غيار</a></li>
+
+        <li class="service-btn">
+            <a href="/repair.html">طلب فني صيانة</a>
+        </li>
+
+        
+
+    </ul>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+</nav>
+
+
+<section class="repair">
+
+<h2>طلب فني صيانة</h2>
+
+<form class="repair-form">
+
+<input type="text" placeholder="الاسم" required>
+
+<input type="tel" placeholder="رقم الهاتف" required>
+
+<input type="text" placeholder="نوع الطابعة ">
+
+<input type="text" placeholder="موديل الطابعة">
+
+<textarea placeholder="اكتب المشكلة بالتفصيل"></textarea>
+
+<button type="submit">إرسال الطلب</button>
+
+</form>
+
+</section>
+<section class="team">
+
+<h2>فريق الصيانة</h2>
+
+<div class="team-container">
+
+<div class="engineer">
+<img src="/images/WhatsApp Image 2026-03-04 at 9.42.47 PM.jpeg">
+<h3>م/  منتصر بشير</h3>
+<p>صيانه جميع المكن التصوير الريكو ابيض واسود كل موديلات mp وموديلات mp c</p>
+</div>
+
+<div class="engineer">
+<img src="engineer2.jpg">
+<h3>م/ محمد حسن</h3>
+<p>متخصص في صيانة طابعات Epson والأعطال المعقدة</p>
+</div>
+
+<div class="engineer">
+<img src="engineer3.jpg">
+<h3>م/ كريم سمير</h3>
+<p>خبرة في صيانة المازر بورد وقطع الغيار</p>
+</div>
+
+</div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
