@@ -1,108 +1,63 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mr.Wafay</title>
-<link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Wafay</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
-
 <body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Mr.Wafay</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li class="dropdown"><a href="printers.html">مكينات طباعة </a></li>
+            <li><a href="#">قطع غيار</a></li>
+            <li class="service-btn"><a href="repair.html">طلب فني صيانة</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
 
-<nav class="navbar">
-
-  <a href="/index.html" class="logo">Mr.Wafay</a>
-    <ul class="nav-links" id="navLinks">
-
-        <li><a href="/index.html">الصفحة الرئيسية</a></li>
-
-        <li class="dropdown">
-            <a href="/printers.html">مكينات طباعة </a>
-            
-        </li>
-
-        <li><a href="#">قطع غيار</a></li>
-
-        <li class="service-btn">
-            <a href="/repair.html">طلب فني صيانة</a>
-        </li>
-
-        
-
-    </ul>
-
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-</nav>
-<!-- HERO SECTION -->
-<section class="hero">
-
-<div class="slider">
-
-<img src="/images/images.jpg" class="slide active">
-
-<img src="/images/ricohproc751.jpg" class="slide">
-
-<img src="/images/x800_ricoh-ricohproc751-468158.jpg" class="slide">
-
-</div>
-
-<div class="hero-text">
-<h1>مرحباً بكم في متجر مستر وفايي</h1>
-<p>
-بيع وصيانة جميع أنواع الطابعات وتوفير الأحبار وقطع الغيار بأفضل الأسعار
-</p>
-
-<a href="/repair.html" class="main-btn">اطلب فني صيانة الآن</a>
-
-</div>
-
-</section>
-<!-- SERVICES -->
-<section class="services">
-
-    <h2>خدماتنا</h2>
-
-    <div class="cards">
-
-        
-        <div class="card"  >
-            <h3>🖨️ بيع الطابعات</h3>
-            <p>أحدث موديلات HP و Canon و Epson بضمان.</p>
-            
-
+    <section class="hero">
+        <div class="slider">
+            <img src="/images/images.jpg" class="slide active" alt="طابعات مستر وفايي">
+            <img src="/images/ricohproc751.jpg" class="slide" alt="ماكينة طباعة ريكو Ricoh Proc 751">
+            <img src="/images/x800_ricoh-ricohproc751-468158.jpg" class="slide" alt="طابعة ريكو احترافية موديل 751">
         </div>
-
-        <div class="card">
-            <h3>🛠️ صيانة الطابعات</h3>
-            <p>فنيين متخصصين لصيانة جميع الأعطال.</p>
+        <div class="hero-text">
+            <h1>مرحباً بكم في متجر مستر وفايي</h1>
+            <p>بيع وصيانة جميع أنواع الطابعات وتوفير الأحبار وقطع الغيار بأفضل الأسعار</p>
+            <a href="repair.html" class="main-btn">اطلب فني صيانة الآن</a>
         </div>
+    </section>
 
-        <div class="card">
-            <h3>🧴 أحبار أصلية</h3>
-            <p>أحبار عالية الجودة لنتائج طباعة ممتازة.</p>
+    <section class="services">
+        <h2>خدماتنا</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>🖨️ بيع الطابعات</h3>
+                <p>أحدث موديلات HP و Canon و Epson بضمان.</p>
+            </div>
+            <div class="card">
+                <h3>🛠️ صيانة الطابعات</h3>
+                <p>فنيين متخصصين لصيانة جميع الأعطال.</p>
+            </div>
+            <div class="card">
+                <h3>🧴 أحبار أصلية</h3>
+                <p>أحبار عالية الجودة لنتائج طباعة ممتازة.</p>
+            </div>
         </div>
+    </section>
 
-       
+    <section class="about">
+        <h2>من نحن</h2>
+        <p>متجر مستر وفايي متخصص في بيع وصيانة الطابعات وتوفير مستلزماتها، نسعى لتقديم أفضل خدمة بأعلى جودة وسرعة تنفيذ.</p>
+    </section>
 
-    </div>
+    <footer>
+        <p>© 2026 Mr.Wafay - جميع الحقوق محفوظة</p>
+    </footer>
 
-</section>
-
-<!-- ABOUT -->
-<section class="about">
-    <h2>من نحن</h2>
-    <p>
-        متجر مستر وفايي متخصص في بيع وصيانة الطابعات وتوفير مستلزماتها،
-        نسعى لتقديم أفضل خدمة بأعلى جودة وسرعة تنفيذ.
-    </p>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 Mr.Wafay - جميع الحقوق محفوظة</p>
-</footer>
-
-<script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
