@@ -6,7 +6,12 @@ body{
 
 /* NAVBAR */
 .navbar{
+    
     display:flex;
+
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    align-items:center;
     justify-content:space-between;
     align-items:center;
     background:#111;
@@ -17,12 +22,16 @@ body{
     left:0;
     width:100%;
     z-index:10;
+    
 }
+
 .hero{
     margin-top:70px;
 }
 
 .logo{
+text-decoration: none;
+
     color:#FFD700;
     font-size:22px;
     font-weight:bold;
@@ -53,31 +62,6 @@ body{
     padding:7px 14px;
     border-radius:6px;
 }
-
-/* DROPDOWN */
-.dropdown{
-    position:relative;
-}
-
-.dropdown-menu{
-    position:absolute;
-    top:30px;
-    right:0;
-    background:#222;
-    list-style:none;
-    padding:10px;
-    display:none;
-    border-radius:6px;
-}
-
-.dropdown-menu li{
-    padding:8px 15px;
-}
-
-.dropdown:hover .dropdown-menu{
-    display:block;
-}
-
 /* MOBILE */
 .menu-toggle{
     display:none;
